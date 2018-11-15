@@ -2,7 +2,7 @@
  * Created by liqiang on 2017/5/23.
  */
 let path = require('path')
-let projectName='maicaiqian';
+let projectName='zhuancaiqian';
 
 module.exports = {
     local: {
