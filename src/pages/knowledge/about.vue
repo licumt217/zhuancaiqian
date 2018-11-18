@@ -4,7 +4,7 @@
             <h1>网络赚钱介绍</h1>
         </div>
 
-        <div class="row">
+        <div class="row mainContent">
             <div class="col-md-2"></div>
             <div class="col-md-8">
 
@@ -331,11 +331,15 @@
         h1{
             padding:0;
             margin: 0;
+            font-size: 30px;
         }
         h4{
-            padding: 0px 10px 0 10px;
+            padding: 10px;
             font-size: 12px;
             line-height: 20px;
+        }
+        .mainContent{
+            padding: 15px!important;
         }
         li{
             font-size: 12px;

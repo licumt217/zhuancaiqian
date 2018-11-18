@@ -156,11 +156,17 @@
 
             margin: -2em 0 0 0!important;
             h2{
-                font-size: 24px!important;
+                font-size: 18px!important;
                 line-height: 32px!important;
+                font-weight: bold;
             }
         }
         .mainContent{
+            .topP{
+                font-size: 16px;
+                line-height: 24px;
+
+            }
             p{
                 font-size: 14px;
             }

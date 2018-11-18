@@ -1,20 +1,20 @@
 <template>
-    <div style="overflow: hidden">
-        <div class="row " style="text-align: center">
+    <div style="overflow: hidden" class="wrapper">
+        <div class="row header" style="text-align: center">
             <h1 class="title">详细教程</h1>
         </div>
 
         <div class="row">
             <div class="col-md-2"></div>
-            <div class="col-md-8 ">
-                <div class="parentWrapper jumbotron">
+            <div class="col-md-8 mainContent">
+                <div class="parentWrapper ">
                     <h3>注意事项：</h3>
                     <ol>
                         <li>限新用户， 一个手机只能注册一个号</li>
                     </ol>
                 </div>
 
-                <div class="parentWrapper jumbotron">
+                <div class="parentWrapper ">
                     <h3>操作步骤</h3>
                     <ol>
                         <li>扫下图二维码下载【支付宝】APP，按照页面提示完成注册，然后完成实名认证。</li>
@@ -24,7 +24,7 @@
                     </ol>
                 </div>
 
-                <div class="parentWrapper jumbotron">
+                <div class="parentWrapper ">
                     <h3>审核要求</h3>
                     <ol>
                         <li>提交注册手机号</li>
@@ -34,7 +34,7 @@
                     </ol>
                 </div>
 
-                <div class="parentWrapper jumbotron">
+                <div class="parentWrapper ">
                     <h3>权益发放</h3>
                     <ol>
                         <li>将审核要求中的相关资料发送到邮箱：447818666@qq.com，并附上自己的收款支付宝账号</li>
@@ -69,19 +69,27 @@
 <style lang="less" scoped>
     .parentWrapper{
         margin-bottom: 1em;
-        padding:0.8em;
-        /*box-shadow: black 0px 0px 0px 0px;*/
+        font-size: 16px!important;
+        line-height: 1.8em;
+        box-shadow: rgb(165, 165, 165) 0em 0em 0.8em;
+        padding:10px;
     }
 
 
     @media screen and (max-width:980px) {
-
+        .wrapper{
+            padding:15px;
+        }
+        .parentWrapper{
+            padding:auto 25px!important;
+        }
         .title{
+            font-size: 30px!important;
             padding: 0;
             margin: 0 0 0.5em 0;
         }
         .img{
-            max-height: 33em!important;
+            max-height: 28em!important;
         }
 
 

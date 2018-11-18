@@ -66,7 +66,7 @@
         p{
             font-size: 18px;
             box-shadow: rgb(165, 165, 165) 0em 0em 0.8em;
-            padding:5px;
+            padding:10px;
         }
         ol{
             box-shadow: rgb(165, 165, 165) 0em 0em 0.8em;
@@ -87,8 +87,9 @@
 
             margin: -2em 0 0 0!important;
             h2{
-                font-size: 24px!important;
+                font-size: 18px!important;
                 line-height: 32px!important;
+                font-weight: bold;
             }
         }
         .mainContent{

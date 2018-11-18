@@ -1,6 +1,6 @@
 <template>
-    <div style="overflow: hidden">
-        <div class="row" style="text-align: center">
+    <div style="overflow: hidden" class="wrapper">
+        <div class="row header" style="text-align: center">
             <h1>靠谱的10大挂机网赚项目推荐</h1>
         </div>
 
@@ -91,7 +91,31 @@
     }
 
     h4 {
+        font-size: 16px!important;
         line-height: 1.8em;
+        box-shadow: rgb(165, 165, 165) 0em 0em 0.8em;
+        padding:10px;
+    }
+
+    @media screen and (max-width:980px) {
+        .wrapper{
+            padding:1em;
+        }
+        .header{
+
+            margin: -2em 0 0 0!important;
+            h2{
+                font-size: 24px!important;
+                line-height: 32px!important;
+            }
+        }
+        h1{
+            font-size: 30px;
+        }
+        h4{
+            font-size: 16px!important;
+        }
+
     }
 
 </style>

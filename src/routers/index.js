@@ -47,7 +47,7 @@ const aboutUs = r => require.ensure([], () => r(require('../pages/aboutUs')), 'a
 
 
 const router = new VueRouter({
-    base: 'zhuancaiqian',
+    base: 'maicaiqian',
     mode: 'history',
     saveScrollPosition: true,
     routes: [

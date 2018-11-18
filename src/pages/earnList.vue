@@ -65,7 +65,6 @@
     }
     .title{
         text-align: center;
-        font-size: 30px;
         padding:0.8em;
     }
 
