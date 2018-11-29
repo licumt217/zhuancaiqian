@@ -57,7 +57,7 @@ app.use(hotMiddleware)
 
 
 
-app.use(express.static('zhuancaiqian'));
+app.use(express.static('li'));
 
 
 // app.get('/', function (req,res,next) {

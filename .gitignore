@@ -1,6 +1,6 @@
 .DS_Store
 node_modules/
-/zhuancaiqian
+/licumt
 dist/
 npm-debug.log
 test/unit/coverage
